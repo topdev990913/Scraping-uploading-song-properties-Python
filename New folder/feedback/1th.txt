@@ -1,0 +1,84 @@
+C:\Users\Mike Wehrs\AppData\Local\Programs\Python\Python311
+
+got it
+
+ok
+That doesn't look correct for path to Python files
+Doesn't it need to be what is at the top of this notepad file?
+
+it is right.
+please let me control
+okay?
+
+Alright.  I'll let you drive and not try to assist.  It\s all yours
+okay
+Thank you :)
+
+
+what attributes do you need?
+Please choose it
+you there?
+ok
+
+the end?
+so many?
+lol
+
+I could make it shorter but isn't it better to get all that may be needed and do this once at that level.  I can always delete some later if they aren't needed.  If it helps to do less, then I'll be more frugal now though.  Let me know?  Also there are almsot 90k songs so many won't have data for all those columns so I'll get as many as I can to hope there are enough that have data
+
+okay
+I will try
+I will follow you
+let me try
+
+yes please
+
+can you see it?
+se yes
+how about it?
+ Let me open it up and see it .  I'll have control for a couple minutes
+okay
+
+There are still critical fields missing (Artist, Album, Genre, play time, etc.).  Also, filename and extension need to be seperated so sorting on type is possible.
+
+It is great for first step to show you can pull data out of the system
+
+there are still many things to fix.
+today is the first day for your project.
+I wanted to show you some progress today.
+and I wanted to know if I was going in the right direction.
+please let me know your opinion.
+
+OK>  Finishing up a call then I'll provide for detailed feedback
+
+1) Agreed 100% that good progress for first day indeed.  Dev environment, remote access, credentials and everythibng are all working and you can pull data from the NAS library.  All really good.
+
+2) please continue
+
+Just hung up.  HEre comes the rest
+
+3) Like on row 19, song titles need to be made first letter capitalized casing
+
+4) I don't know what the numbers in columns C onward mean
+
+5) Like on rowns 37 - 67, there are no song titles so those will have to be sourced from one of the metadata suppliers I sent you links about. To look up the song names, the albumn title is required or at least the unique album ID number.
+
+6) Like on line 70 there are a number of padded spaces between the end of the some name and extension.  extra spaces like that will need to be removed.
+
+7) Look at the name of the song in row 96 and you'l see thibngs like "*&amp;amp;amp; The origin".  That kind of artifact needs to be cleaned up.
+
+
+My suggestion on how to handle the hierarchy and close-to-duplicate folder names for the artist level is to ensure you got the albumn and song names and then one of the online free services will give you the proper band/artist name and then you can rebuild the folder structure on the NAS to not have those cloe-dupes.
+
+
+Other than that, DAMN GOOD job for day 1/!    Well done
+
+Comments from you on process and our interaction for day 1?
+
+as I said, there are many problems to fix
+I will show you the progress every day and listen to your opinions.
+
+do you like the type of result?
+
+???
+please let me know your think
