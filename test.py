@@ -9,6 +9,7 @@ import soundfile as sf
 from eyed3 import id3
 import audio_metadata
 import shutil
+from mutagen.easyid3 import EasyID3
 # import stagger
 path = "D://music"
 lists = pathlib.Path(path)
@@ -70,13 +71,16 @@ for item in lists.rglob("*"):
         Song_number = analyize.track        
         new_data['Song_Number'] = Song_number
 
-        ####Song Artist#######
+        ####Song Artist####### 
         tag.parse(Song_path)
         Song_artist = str(tag.artist).replace(" - (Banned)", "").replace("AC-DC", "AC DC").replace("AC_DC", "AC DC").replace("Bob Marley and the Wailers", "Bob Marley")
         if "Unknown" in Song_artist:
             Song_artist = "Led Zeppelin"        
         new_data['File_artist'] = Song_artist
 
+        mp3_file = EasyID3(Song_path)
+        mp3_file["albumartist"] = Song_artist
+        mp3_file.save()
         ####Song Album######
         Song_album = str(tag.album)
         if "Unknown" in Song_album:
@@ -99,7 +103,7 @@ for item in lists.rglob("*"):
         new_data['File_bitrate'] = Song_bitrate
 
         #####Song_composer#####
-        Song_composer = analyize.composer        
+        Song_composer = str(analyize.composer).replace("/", ",")        
         new_data['File_composer'] = Song_composer
 
         #####Song Comment######
