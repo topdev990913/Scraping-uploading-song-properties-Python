@@ -206,7 +206,7 @@ for item in lists.rglob("*"):
 
             result_list.append(new_data)
             try:
-                dict = {'name': File_Name_list, 'File Path': File_Path_List, 'File Type': File_Type_List,  'File_size_in_MB': File_Size_List, 'Length': File_Length_List, 'Song Number': File_Number_List, 'Artist': File_artist_List, 'Album': File_album_List, 'Genre': File_genre_List, 'Publisher': File_publisher_List, 'Bitrate': File_bitrate_List, 'Comment': File_comment_List, 'Composer': File_composer_List, 'Year Published': File_year_List, 'Owner': File_owner_List, 'Computer': File_computer_List, 'Encoded By': File_encoded_by_List, 'Copyright': File_copyright_List, 'Device_id': File_device_id_List, 'Inode_id': File_inode_number_List,  'Created Date': File_date_created_List, 'Modified Date': File_date_modified_List, 'Last Access Date': File_date_access_List}
+                dict = {'Name': File_Name_list, 'File Path': File_Path_List, 'File Type': File_Type_List,  'File_size_in_MB': File_Size_List, 'Length': File_Length_List, 'Song Number': File_Number_List, 'Artist': File_artist_List, 'Album': File_album_List, 'Genre': File_genre_List, 'Publisher': File_publisher_List, 'Bitrate': File_bitrate_List, 'Comment': File_comment_List, 'Composer': File_composer_List, 'Year Published': File_year_List, 'Owner': File_owner_List, 'Computer': File_computer_List, 'Encoded By': File_encoded_by_List, 'Copyright': File_copyright_List, 'Device_id': File_device_id_List, 'Inode_id': File_inode_number_List,  'Created Date': File_date_created_List, 'Modified Date': File_date_modified_List, 'Last Access Date': File_date_access_List}
                 df = pd.DataFrame(dict)
                 df.to_csv('Result_music_list.csv')
             except:
@@ -228,6 +228,7 @@ for item in lists.rglob("*"):
             except:
                 pass 
         Song_name_origin.append(Song_name)
+
         ###de-duping######
 
 target = r'D:/music/2 Live Crew'
